@@ -1,7 +1,8 @@
 pipeline {
 agent any
 tools {
-  terraform 'terraform'
+    // Specify Terraform version
+    terraform 'terraform-1.6.6'
 }
 options { ansiColor('xterm') } 
  stages { 
